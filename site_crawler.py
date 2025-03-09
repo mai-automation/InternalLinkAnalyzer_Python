@@ -1,6 +1,7 @@
 """
 The following script is designed to crawl a website recursively, extract internal links, and check the status of each URL using Playwright and asyncio in Python.
 """
+
 import requests
 import csv
 from bs4 import BeautifulSoup
