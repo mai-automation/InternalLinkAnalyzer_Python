@@ -1,3 +1,9 @@
+"""
+This script can be used to analyze error codes after crawling a website and checking the status of URLs.
+It processes multiple Excel files in a folder named "Files" to extract data based on specific response codes.
+It filters the data based on the response codes provided, extracts relevant columns, and counts occurrences by subfolder.
+The summary for each response code is saved to a separate CSV file with the counts of URLs per subfolder.
+"""
 import os
 import pandas as pd
 import re

@@ -1,3 +1,9 @@
+"""
+This script can be used after updating/fixing broken links and redirect issues to check if the changes were successful.
+It reads a CSV file containing URLs and checks the status codes of both the initial and final URLs.
+The final URL is the result of following any redirects that occur when making the initial HEAD request.
+The results are saved to a new CSV file with columns for the initial status code, final status code, and final URL.
+"""
 import pandas as pd
 import requests
 
